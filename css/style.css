@@ -90,6 +90,15 @@ body{
     display: flex;
     justify-content: center;
     column-gap: 100px;
+    position: relative;
+}
+.lure::after{
+    position: absolute;
+    content: "";
+    width: 1157px;
+    height: 2px;
+    background-color: rgba(238, 238, 238, 1);
+    top: 507px;
 }
 .lure-title{
     font-size: 24px;
@@ -118,4 +127,90 @@ body{
 }
 .lure-card{
     padding-top: 80px;
+}
+.about{
+    display: block;
+    bottom: 0px;
+    position: relative;
+}
+.about_title{
+    font-size: 45px;
+    font-weight: 500;
+    width: 651px;
+    top: 145px;
+    position: absolute;
+}
+.about-sub{
+    position: absolute;
+    top: 315px;
+}
+.orders-title{
+    position: absolute;
+    top: 380px;
+    text-transform: uppercase;
+    color: rgba(40, 49, 54, 1);
+    font-weight: bold;
+}
+.orders-list{
+    list-style: none;
+    position: absolute;
+    top: 425px;
+}
+.orders-list>li{
+    padding-bottom: 30px;
+    position: relative;
+}
+.orders-list>li:last-child{
+    padding-bottom: 0px;
+}
+.orders-list>li::before{
+    content: "";
+    height: 2px;
+    width: 25px;
+    position: absolute;
+    background-color: rgba(251, 86, 90, 1);
+    display: flex;
+    left: -37px;
+    top: 6.5px;
+}
+.about-logo{
+    display: flex;
+    left: 800px;
+    top: 160px;
+    position: absolute;
+}
+.advantages{
+    position: relative;
+}
+.advantages-title{
+    position: absolute;
+    right: 0px;
+    top: 390px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.advantages-list{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    right: 15px;
+    top: 450px;
+}
+.advantages-list>li{
+    padding-right: 25px;
+}
+.advantages-number{
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+    margin-left: -6px;
+}
+.advantages-sub{
+    color: rgba(40, 49, 54, 1);
+    
+}
+.procent{
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
 }
