@@ -1,0 +1,102 @@
+.logo:hover{
+    opacity: 0.7;
+    transition: background-color 0.2s;
+}
+.logo:active{
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+.nav-link:hover{
+    color: rgba(251, 86, 90, 1);
+    transition: background-color 0.2s;
+}
+.nav-link:active{
+    color: black;
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+.cart>a:hover{
+    color: rgba(251, 86, 90, 1);
+    transition: background-color 0.2s;
+}
+.cart>a:active{
+    color: black;
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+.btn_slide:hover{
+    background-color: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.btn_slide:active{
+    background-color: rgba(215, 55, 59, 1);
+    transition: background-color 0.2s;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+}
+.btn-website:hover{
+    background-color: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.btn-website:active{
+    background-color: rgba(215, 55, 59, 1);
+    color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.2s;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+.btn-app:hover{
+    background-color: rgba(0, 188, 108, 1);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.btn-app:active{
+    background-color: rgba(0, 170, 98, 1);
+    color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.2s;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+.btn-present:hover{
+    background-color: rgba(234, 181, 52, 1);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.btn-present:active{
+    background-color: rgba(229, 167, 34, 1);
+    color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.2s;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+.company-img:hover{
+    opacity: 1;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.company-img:active{
+    opacity: 0.1;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    background-color: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.contact-btn:active{
+    background-color: rgba(215, 55, 59, 1);
+    transition: background-color 0.2s;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+}
+.icons-messanger:hover{
+    background-color: rgba(231, 66, 70, 1);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.icons-messanger:active{
+    background-color: rgba(215, 55, 59, 1);
+    cursor: pointer;
+    transition: background-color 0.2s;
+    opacity: 0.6;
+}

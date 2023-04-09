@@ -36,6 +36,7 @@ body{
     display: flex;
     column-gap: 45px;
     padding-right: 285px;
+    margin-left: 160px;
 }
 .nav-link{
     text-decoration: none;
@@ -44,7 +45,8 @@ body{
     text-transform: uppercase;
 }
 .logo{
-    padding-right: 200px;
+    max-width: 160px;
+    display: inline;
 }
 .cart>a{
     position: relative;
@@ -228,97 +230,200 @@ body{
 .html-company{
     border-right: solid 2px rgba(238, 238, 238, 1);
     padding-right: 48px;
+    opacity: 0.2;
 }
 .borodinsky-company{
     margin-left: 45px;
     border-right: solid 2px rgba(238, 238, 238, 1);
     padding-right: 48px;
+    opacity: 0.2;
 }
 .pink-company{
     margin-left: 45px;
     border-right: solid 2px rgba(238, 238, 238, 1);
     padding-right: 48px;
+    opacity: 0.2;
+    height: 52px;
 }
 .mishki-company{
     margin-left: 45px;
-
+    opacity: 0.2;
+}
+.map{
+    position: absolute;
+    width: 100%;
 }
 .footer{
     position: relative;
-}
-.map{
-    position: relative;
-    width: 100%;
-    top: 460px;
-    display: flex;
+    bottom: -900px;
 }
 .map-marker{
     position: absolute;
-    display: flex;
-    top: 536px;
-    right: 360px;
+    left: 760px;
+    top: 75px;
 }
 .map-contact{
-    position: relative;
+    position: absolute;
     width: 319px;
     height: 308px;
     background-color: white;
-    top: 585px;
-    left: 140px;
+    top: 54px;
 }
 .contact-title{
+    position: absolute;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 50px;
-    padding-top: 50px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    top: 35px;
 }
 .contact-addres{
-    margin-left: 50px;
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 75px;
 }
 .contact-number{
     position: absolute;
-    margin-left: 50px;
-    top: 165px;
+    left: 50px;
+    top: 145px;
 }
 .contact-btn{
     position: absolute;
-    padding: 17px 45px;
+    left: 50px;
+    top: 190px;
     background-color: rgba(251, 86, 90, 1);
-    left: 49px;
-    top: 215px;
-}
-.footer{
-    position: relative;
+    padding: 17px 40px;
 }
 .footer-icons{
-    position: relative;
-    top: 670px;
-    display: flex;
-    
+    position: absolute;
+    top: 400px;
 }
 .icons-messanger{
-    position: absolute;
-    width: 31px;
-    height: 20px;
     background-color: rgba(225, 225, 225, 1);
-    padding: 33px 27px;
+    padding: 32px 26px;
+    width: 28px;
+    height: 17px;
     border-radius: 100%;
+    margin-top: 68px;
 }
-.icons-fb {
-    margin-left: 95px;
+.icons-fb{
+    margin-left: 10px;
 }
 .icons-insta{
-    margin-left: 190px;
+    margin-left: 10px;
 }
 .footer-title{
-    position: relative;
     font-size: 36px;
     font-weight: bold;
     line-height: 0px;
 }
+.footer-sub{
+    line-height: 0px;
+    margin-top: -5px;
+}
 .footer-text{
-    position: relative;
-    top: 665px;
-    margin-left: 400px;
+    position: absolute;
+    top: 458px;
+    left: 520px;
     padding-bottom: 50px;
+}
+
+
+
+.pop-up{
+    width: 960px;
+    height: 590px;
+    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    display: none;
+    margin:auto;
+}
+.pop-up-main{
+    position: relative;
+}
+.cross{
+    margin-top: 70px;
+    margin-left: 845px;
+}
+.pop-up-title{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0px;
+    position: absolute;
+    top: 43px;
+    left: 100px;
+}
+.name-input-sub{
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    top: 135px;
+    left: 100px;
+}
+.name-input{
+    color: rgba(68, 68, 68, 0.5);
+    width: 360px;
+    height: 50px;
+    border: solid 2px rgba(215, 220, 222, 1);
+    font-size: 17px;
+    position: absolute;
+    left: 100px;
+    top: 168px;
+    padding-left: 5px;
+}
+.email-input-sub{
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    top: 135px;
+    right: 290px;
+}
+.email-input{
+    font-size: 17px;
+    position: absolute;
+    border: solid 2px rgba(215, 220, 222, 1);
+    color: rgba(68, 68, 68, 0.5);
+    width: 360px;
+    height: 50px;
+    top: 168px;
+    right: 0px;
+    padding-left: 5px;
+}
+.letter-input-sub{
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    top: 263px;
+    right: 660px;
+}
+.letter-input{
+    font-size: 17px;
+    position: absolute;
+    border: solid 2px rgba(215, 220, 222, 1);
+    color: rgba(68, 68, 68, 0.5);
+    width: 774px;
+    left: 100px;
+    top: 291px;
+    padding-bottom: 118px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.btn-pop-up{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(251, 86, 90, 1);
+    text-transform: uppercase;
+    padding: 17px 80px;
+    border: none;
+    position: absolute;
+    left: 100px;
+    top: 480px;
+}
+.cross{
+    opacity: 0.3;
 }
